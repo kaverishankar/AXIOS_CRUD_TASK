@@ -1,0 +1,45 @@
+.contentbox {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding-right: 10px;
+  padding-top: 0;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 20px;
+  padding: 4px 12px;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay>form {
+  padding: 20px;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.overlay>form input {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  min-width: 500px;
+  font-size: 20px;
+}
+
+.overlay>form button {
+  font-size: 20px;
+  background-color: yellowgreen;
+}

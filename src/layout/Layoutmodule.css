@@ -1,0 +1,48 @@
+.header {
+    position: fixed;
+    border-bottom: 2px solid;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-image: url("https://t3.ftcdn.net/jpg/02/72/24/76/360_F_272247623_GmzIc6nAHj7OAFlIRxVdiNkaRoGT3ZsA.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    z-index: 1;
+}
+
+.sidebar {
+    top: 120px;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: center;
+    left: 0;
+    width: 150px;
+    height: calc(100vh - 120px);
+    background-color: rgb(157, 168, 33);
+    color: aqua;
+    position: fixed;
+
+}
+
+.content {
+    height: 200vh;
+    padding-top: 200px;
+    margin-left: 170px;
+}
+
+.footer {
+    bottom: 0;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    font-size: 25px;
+    right: 0;
+    text-align: center;
+    background-color: rgb(244, 135, 110);
+}

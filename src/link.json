@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "Admin",
+        "path" : "/"
+    },
+    {
+        "name" : "ProductList",
+        "path" : "/productlist"
+    },
+    {
+        "name" : "About",
+        "path" : "/about"
+    }
+]
